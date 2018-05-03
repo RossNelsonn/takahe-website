@@ -1,0 +1,282 @@
+/*--CSS RESET--*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body, html{
+    height: 100%;
+    margin:0;
+    font-size: 15px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 300;
+    line-height: 1.8em;
+    color:#666;
+}
+
+
+header {
+    height: 150vh;
+    width: 100%;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+}
+
+
+/*--sections--*/
+
+section{
+    text-align: center;
+    height: auto;
+    padding: 10em 0;
+    margin: 0;
+    
+}
+
+.one {
+    background-color: #1A4708;
+    background-size: cover;
+    padding-top: 7em;  
+}
+
+.two {
+    background-image: url(../img/blackgrass.jpg);
+    background-size: cover;
+    padding: 7em 0;
+    
+}
+
+.three {
+    background-image: url(../img/trees-sky.jpg);
+    background-size: cover;
+    height: 70vh;
+    max-width: 100%;
+}
+
+.four {
+    background-color: black;
+}
+
+.five{
+    background-image: url(../img/greengrass-01.jpg);
+    background-size: cover;
+    padding-top:15em;
+    
+}
+
+.six{
+    background-image: url(../img/snow.jpg);
+    background-size: cover;
+    padding-bottom: 2em;
+}
+
+.seven{
+    background-image: url(../img/snow-grass.jpg);
+    background-size: cover;
+    padding-bottom: 2em;
+    padding-top: 15em;
+}
+
+.eight{
+    background-image: url(../img/blackgrass2.jpg);
+    background-size: cover;
+    padding-top: 15em;
+}
+
+.nine {
+    background-image: url(../img/maori-frame.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+li {
+    list-style-type: none;
+    color: white;
+}
+
+
+footer {
+  background-color: #000;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+
+h1 {
+    padding-top: 1.25em;
+    font-size: 3em;
+    line-height: 1em;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+h2 {font-size: 3em;
+  padding-bottom: 1em;
+  font-family: 'Acme', sans-serif;
+  padding: 1em;
+  color: white;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.3em;
+    font-size: 1.3em;
+    max-width: 40em;
+    margin: 0 auto;
+    color: white;
+   
+}
+
+p+p {
+margin-top: 1em;
+}
+
+.rediscover{
+    text-align: center;
+    max-width: 32em;
+    font-size: 1.7em;
+    font-family: 'Acme', sans-serif;
+    
+}
+
+.left {
+float: left;
+width: 29em;
+height: 27em;
+padding: 1em;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+blockquote2 {
+  font-size: 2em;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  
+}
+blockquote2:before {
+  color: #fff;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 2em;
+  margin-right: 0em;
+  vertical-align: -0.4em
+}
+blockquote2:after {
+  color: #fff;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 1em;
+  vertical-align: -0.4em
+}
+
+
+blockquote2 p {
+  display: inline;
+}
+
+blockquote{
+    font-family: 'Indie Flower', cursive;
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    bottom: 0;
+    padding-top: 23em;
+    padding-bottom: 4em;
+    color: black;
+    text-align: center; 
+}
+
+/*---table---*/
+
+th {
+    text-align: left;
+    color: white;
+    
+}
+
+
+table {
+    background-color: #000;
+    width: 50%;
+    margin: auto;
+}
+
+th {
+    height: 50px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    color: white;
+}
+
+tr:nth-child(even) {background-color: #1a4708;}
+
+/*--title--*/
+
+
+
+.title { 
+    font-size: 0.4em;
+    word-spacing: 0.03em;
+    font-family: 'Acme', sans-serif;
+}
+
+.title2 {font-size:1em;
+   font-family: 'Acme', sans-serif;
+    }
+
+.title3{
+    font-size: 0.4em;
+    word-spacing: 0.05em;
+    font-family: 'Acme', sans-serif;
+}
+    
+
+
+cite1 {
+    color: #000;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+
+}
+
+cite{
+    font-family: 'Acme', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+
+.facts {
+    text-align: center;
+    padding-bottom: 0;
+}
+
+
+
+/*---map---*/
+
+
+#map {
+width: 100%;
+height:500px;
+}
+
+@media (max-width: 40em) {
+    p {
+        max-width: 90%;
+    }
+}
+	
+
